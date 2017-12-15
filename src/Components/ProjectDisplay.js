@@ -4,8 +4,7 @@ import {Link} from 'react-router-dom';
 export class Display extends React.Component{
     render(){
         return(
-            <section>
-                <h1>Steven Siperko</h1>
+            <section className='projects'>
                 <div className="projectContainer">
                     <div className="row">
                         <div className="col">
