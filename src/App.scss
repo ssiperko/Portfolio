@@ -9,6 +9,7 @@ body, html {
 a{
   color: #333;
   text-decoration: none;
+  font-weight: 100;
 }
 
 .header {
@@ -169,4 +170,12 @@ h1 {
 
 .link {
     color: #FFF;
+}
+
+.contactIcons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
 }

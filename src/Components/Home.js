@@ -8,7 +8,7 @@ export class Home extends React.Component{
         return(
             <div className='headline'>
                 <h1>Steven Siperko</h1>
-                <h3>portfolio</h3>
+                <Link to ='./projects'><h3>portfolio</h3></Link>
             </div>
         );
     }

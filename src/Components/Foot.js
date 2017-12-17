@@ -6,7 +6,6 @@ export class Foot extends React.Component{
             <div className = 'foot'>
                 <h5 className="foot">Coded by Steven Siperko</h5>
                 <button className='icon'><a href="https://github.com/ssiperko"><i className="fa fa-github buttonIcon" ></i></a></button>
-                <button className='icon'><a href="https://codepen.io/"><i className="fa fa-codepen buttonIcon" ></i></a></button>
             </div>
         );
     }
